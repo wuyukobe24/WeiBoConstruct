@@ -2,7 +2,8 @@
 仿新浪微博加号弹出动画
 
 //向上弹出动画
--(void)openConstructButtonLocation{
+
+    -(void)openConstructButtonLocation{
 
     NSArray * upArray = @[_calendarButton,_projectButton,_photoButton,_soundButton,_recordButton];
     [upArray enumerateObjectsUsingBlock:^(id obj,NSUInteger idx,BOOL*stop) {
@@ -32,10 +33,11 @@
         });
         
     }];
-}
+    }
 
 //向下滑走动画
-- (void)closeConstructButtonLocation{
+
+    - (void)closeConstructButtonLocation{
 
     NSArray * downArray = @[_recordButton,_soundButton,_photoButton,_projectButton,_calendarButton];
     [downArray enumerateObjectsUsingBlock:^(id obj,NSUInteger idx,BOOL*stop) {
@@ -68,10 +70,11 @@
         });
         
     }];
-}
+    }
 
 //十字按钮旋转45度动画
-- (void)cancelButtonClick:(UIButton *)sender{
+
+    - (void)cancelButtonClick:(UIButton *)sender{
 
     sender.selected = !sender.selected;
     
@@ -90,7 +93,8 @@
         }];        
         
     }
-}
+    }
 
 实现效果截图：
+
 ![image](https://github.com/wuyukobe24/WeiBoConstruct/blob/master/construct.png)
