@@ -15,6 +15,13 @@
 		F1F961C31F3050390042FDC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1F961C11F3050390042FDC5 /* LaunchScreen.storyboard */; };
 		F1F961CE1F30503A0042FDC5 /* WeiBoConstructTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F961CD1F30503A0042FDC5 /* WeiBoConstructTests.m */; };
 		F1F961D91F30503A0042FDC5 /* WeiBoConstructUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F961D81F30503A0042FDC5 /* WeiBoConstructUITests.m */; };
+		F1F961E81F3050B20042FDC5 /* ConstructViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F961E71F3050B20042FDC5 /* ConstructViewController.m */; };
+		F1F961ED1F3050BC0042FDC5 /* ConstructDateView.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F961EA1F3050BC0042FDC5 /* ConstructDateView.m */; };
+		F1F961EE1F3050BC0042FDC5 /* ConstructButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F961EC1F3050BC0042FDC5 /* ConstructButtonView.m */; };
+		F1F961F11F3052640042FDC5 /* BaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F961EF1F3052640042FDC5 /* BaseView.m */; };
+		F1F961F61F3052B60042FDC5 /* NSDate+Calendar.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F961F21F3052B60042FDC5 /* NSDate+Calendar.m */; };
+		F1F961FA1F3053190042FDC5 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F961F91F3053190042FDC5 /* UIView+Extension.m */; };
+		F1F962031F305AD30042FDC5 /* UIColor+NSString.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F962021F305AD30042FDC5 /* UIColor+NSString.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +46,8 @@
 		F1F961B41F3050390042FDC5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F1F961B61F3050390042FDC5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F1F961B71F3050390042FDC5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F1F961B91F3050390042FDC5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F1F961BA1F3050390042FDC5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F1F961B91F3050390042FDC5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../ViewController.h; sourceTree = "<group>"; };
+		F1F961BA1F3050390042FDC5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../ViewController.m; sourceTree = "<group>"; };
 		F1F961BD1F3050390042FDC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F1F961BF1F3050390042FDC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F1F961C21F3050390042FDC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +58,20 @@
 		F1F961D41F30503A0042FDC5 /* WeiBoConstructUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeiBoConstructUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1F961D81F30503A0042FDC5 /* WeiBoConstructUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeiBoConstructUITests.m; sourceTree = "<group>"; };
 		F1F961DA1F30503A0042FDC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1F961E61F3050B20042FDC5 /* ConstructViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ConstructViewController.h; path = ../ConstructViewController.h; sourceTree = "<group>"; };
+		F1F961E71F3050B20042FDC5 /* ConstructViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ConstructViewController.m; path = ../ConstructViewController.m; sourceTree = "<group>"; };
+		F1F961E91F3050BC0042FDC5 /* ConstructDateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ConstructDateView.h; path = ../ConstructDateView.h; sourceTree = "<group>"; };
+		F1F961EA1F3050BC0042FDC5 /* ConstructDateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ConstructDateView.m; path = ../ConstructDateView.m; sourceTree = "<group>"; };
+		F1F961EB1F3050BC0042FDC5 /* ConstructButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ConstructButtonView.h; path = ../ConstructButtonView.h; sourceTree = "<group>"; };
+		F1F961EC1F3050BC0042FDC5 /* ConstructButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ConstructButtonView.m; path = ../ConstructButtonView.m; sourceTree = "<group>"; };
+		F1F961EF1F3052640042FDC5 /* BaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseView.m; path = ../BaseView.m; sourceTree = "<group>"; };
+		F1F961F01F3052640042FDC5 /* BaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseView.h; path = ../BaseView.h; sourceTree = "<group>"; };
+		F1F961F21F3052B60042FDC5 /* NSDate+Calendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDate+Calendar.m"; path = "../NSDate+Calendar.m"; sourceTree = "<group>"; };
+		F1F961F51F3052B60042FDC5 /* NSDate+Calendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDate+Calendar.h"; path = "../NSDate+Calendar.h"; sourceTree = "<group>"; };
+		F1F961F81F3053190042FDC5 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+Extension.h"; path = "../UIView+Extension.h"; sourceTree = "<group>"; };
+		F1F961F91F3053190042FDC5 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+Extension.m"; path = "../UIView+Extension.m"; sourceTree = "<group>"; };
+		F1F962011F305AD30042FDC5 /* UIColor+NSString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+NSString.h"; path = "../UIColor+NSString.h"; sourceTree = "<group>"; };
+		F1F962021F305AD30042FDC5 /* UIColor+NSString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+NSString.m"; path = "../UIColor+NSString.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +124,9 @@
 			children = (
 				F1F961B61F3050390042FDC5 /* AppDelegate.h */,
 				F1F961B71F3050390042FDC5 /* AppDelegate.m */,
-				F1F961B91F3050390042FDC5 /* ViewController.h */,
-				F1F961BA1F3050390042FDC5 /* ViewController.m */,
+				F1F962061F305F0D0042FDC5 /* Controller */,
+				F1F962051F305F040042FDC5 /* View */,
+				F1F962041F305F000042FDC5 /* Category */,
 				F1F961BC1F3050390042FDC5 /* Main.storyboard */,
 				F1F961BF1F3050390042FDC5 /* Assets.xcassets */,
 				F1F961C11F3050390042FDC5 /* LaunchScreen.storyboard */,
@@ -138,6 +160,43 @@
 				F1F961DA1F30503A0042FDC5 /* Info.plist */,
 			);
 			path = WeiBoConstructUITests;
+			sourceTree = "<group>";
+		};
+		F1F962041F305F000042FDC5 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				F1F961F51F3052B60042FDC5 /* NSDate+Calendar.h */,
+				F1F961F21F3052B60042FDC5 /* NSDate+Calendar.m */,
+				F1F961F81F3053190042FDC5 /* UIView+Extension.h */,
+				F1F961F91F3053190042FDC5 /* UIView+Extension.m */,
+				F1F962011F305AD30042FDC5 /* UIColor+NSString.h */,
+				F1F962021F305AD30042FDC5 /* UIColor+NSString.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		F1F962051F305F040042FDC5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F1F961F01F3052640042FDC5 /* BaseView.h */,
+				F1F961EF1F3052640042FDC5 /* BaseView.m */,
+				F1F961E91F3050BC0042FDC5 /* ConstructDateView.h */,
+				F1F961EA1F3050BC0042FDC5 /* ConstructDateView.m */,
+				F1F961EB1F3050BC0042FDC5 /* ConstructButtonView.h */,
+				F1F961EC1F3050BC0042FDC5 /* ConstructButtonView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F1F962061F305F0D0042FDC5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F1F961B91F3050390042FDC5 /* ViewController.h */,
+				F1F961BA1F3050390042FDC5 /* ViewController.m */,
+				F1F961E61F3050B20042FDC5 /* ConstructViewController.h */,
+				F1F961E71F3050B20042FDC5 /* ConstructViewController.m */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,6 +335,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1F961FA1F3053190042FDC5 /* UIView+Extension.m in Sources */,
+				F1F962031F305AD30042FDC5 /* UIColor+NSString.m in Sources */,
+				F1F961F61F3052B60042FDC5 /* NSDate+Calendar.m in Sources */,
+				F1F961ED1F3050BC0042FDC5 /* ConstructDateView.m in Sources */,
+				F1F961E81F3050B20042FDC5 /* ConstructViewController.m in Sources */,
+				F1F961F11F3052640042FDC5 /* BaseView.m in Sources */,
+				F1F961EE1F3050BC0042FDC5 /* ConstructButtonView.m in Sources */,
 				F1F961BB1F3050390042FDC5 /* ViewController.m in Sources */,
 				F1F961B81F3050390042FDC5 /* AppDelegate.m in Sources */,
 				F1F961B51F3050390042FDC5 /* main.m in Sources */,
